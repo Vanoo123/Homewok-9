@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section_wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.right_box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #FFFFFF;
+    height: 100vh;
+    align-items: center;
+}
+
+.left_image {
+    height: 100vh;
+    width: 100%;
+    background-size: 100% 100%;
+    background-image: url(../images/image.png);
+    background-repeat: no-repeat;
+}
+
+label {
+    display: block;
+    color: #003D61;
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 10px;
+}
+
+input {
+    background: transparent;
+    border: none;
+    border-left: 1px solid #003D61;
+    border-bottom: 1px solid #003D61;
+    outline: none;
+    width: 500px;
+    height: 35px;
+}
+
+.second_input {
+    margin-top: 20px;
+}
+
+.third_input {
+    margin-top: 20px;
+}
+
+::placeholder {
+    padding: 30px;
+    color: #C4C4C4;
+}
+
+.form_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.terms_section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.terms_section p {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    color: #003D61;
+}
+
+.terms_section a {
+    color: #ED2980;
+}
+
+/* ((((SOCIAL ICONS ))) */
+.social_section {
+    display: flex;
+    
+}
+
+.social_icons {
+    position: relative;
+    margin: 50px 50px 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social_icons:hover {
+    cursor: pointer;
+}
+
+.white_bg {
+    position: absolute;
+}
+
+.black_bg {
+    position: absolute;
+}
+
+.apple_logo {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+}
+
+.blue_bg {
+    position: absolute;
+}
+
+.linkedin_logo {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-right: 2px;
+}
+
+
+.google_icon {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    z-index: 1;
+    
+}
+
+/* (((((((((((()))))))))))) */
+
+
+@media screen and (max-width: 850px) {
+    .section_wrapper {
+        flex-direction: column;
+        height: 100vh;
+    }
+    .left_image{
+        display: flex;
+        width: 100%;
+    }
+    .right_box {
+        display: flex;
+        width: 100%;
+    }
+
+}
